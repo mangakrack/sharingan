@@ -2,7 +2,10 @@ import whois
 import os
 from termcolor import cprint 
 
+#clean the terminal
 os.system("clear")
+
+#the name
 
 cprint('''
                                                   
