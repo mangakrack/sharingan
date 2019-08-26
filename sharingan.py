@@ -1,6 +1,9 @@
 import whois
 import os
 from termcolor import cprint 
+
+os.system("clear")
+
 cprint('''
                                                   
                                                   
