@@ -1,6 +1,5 @@
 import whois
 import os
-import requests
 from termcolor import cprint 
 cprint('''
                                                   
