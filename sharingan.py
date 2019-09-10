@@ -47,13 +47,14 @@ MMWWWk. .,;::;::::;;;;:::::::;'. .dNWWMM
                                                   
                                                   
 ''','red')
+#install
+os.system("pkg install dnsutils")
+os.system("pkg install nmap")
 #whois
 web = input ("dame el url de la pagina:")
 whois=whois.query (web)
 print (whois.__dict__)
-#install
-os.system("pkg install dnsutils")
-os.system("pkg install nmap")
+
 #ping
 hostname = (web)
 response = os.system("ping -c 1 " + hostname)
